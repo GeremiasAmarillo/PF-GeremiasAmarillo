@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    display: grid;
+    display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-auto-columns: 1fr;
@@ -202,8 +202,8 @@ textarea {
 
     .area1 {
         grid-area: area1;
-        display: flex;
-        justify-content: center;
+        display:flex;
+        justify-content:center;
         align-items: center;
     }
 
