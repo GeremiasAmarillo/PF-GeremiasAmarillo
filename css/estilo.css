@@ -76,7 +76,6 @@ main {
     align-items: center;
 }
 
-
 p {
     text-align: center;
     text-decoration: none;
@@ -112,7 +111,8 @@ footer {
     padding: 10px;
 
 }
-.foter{
+
+.foter {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -185,7 +185,7 @@ textarea {
 
 /*MEDIAQUERRIES*/
 
-@media screen and (max-width: 780px){
+@media screen and (max-width: 780px) {
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -198,15 +198,15 @@ textarea {
             "area1"
             "area2"
     }
-    
-    
+
+
     .area1 {
         grid-area: area1;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    
+
     .area2 {
         grid-area: area2;
         display: flex;
