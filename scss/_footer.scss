@@ -1,0 +1,36 @@
+footer{
+    background: linear-gradient(to bottom, rgb(4, 2, 0) 0%,rgb(119, 65, 0) 36%,rgb(174, 84, 0) 66%,rgb(146, 70, 0) 100%);
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    h4{ 
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+    ul{
+        li{
+            list-style: none;
+            .foter{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            a{
+               .boton{
+                    width: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    footer {
+        background-image: url(../LogoEnviosService/Carousel/desktop-wallpaper-youtube-banner-youtube-channel-banner.jpg);
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+    
+    }
+}

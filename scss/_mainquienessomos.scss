@@ -1,0 +1,32 @@
+main{
+    h2{
+        text-align: center;
+        color: orangered;
+        font-family: 'Permanent Marker', cursive;
+        font-size: xx-large;
+    }
+    div{
+        div{
+            h2{
+                div{
+                    div{
+                        p{
+                            text-align: center;
+                            text-decoration: none;
+                            color: black;
+                            font-size: large;
+                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    div{
+        iframe{
+            display: block;
+            width: 80%;
+            aspect-ratio: 16 / 9;
+        }
+    }
+}
