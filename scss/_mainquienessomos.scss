@@ -1,7 +1,19 @@
+/*Colores*/
+$colornegro:#0f0f0f;
+$colornaranja:#ff7700;
+$colortiza:#fff5f5;
+
 main{
+    h1{
+        text-align: center;
+        text-decoration: double;
+        font-family: 'Dela Gothic One', cursive;
+        font-size: xxx-large;
+        margin: 25px;
+    }
     h2{
         text-align: center;
-        color: orangered;
+        color: #ff4500;
         font-family: 'Permanent Marker', cursive;
         font-size: xx-large;
     }

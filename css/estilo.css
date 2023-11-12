@@ -3,12 +3,11 @@ body {
 
 @media screen and (max-width: 768px) {
   body {
-    background: linear-gradient(to right, #2c2c2c -1%, #4c4c4c 0%, #2c2c2c 0%, #595959 26%, #666666 40%, #898989 64%, lightgray 100%); } }
+    background: #fceabb;
+    background: -webkit-linear-gradient(to right, #f8b500, #fceabb);
+    background: linear-gradient(to right, #f8b500, #fceabb); } }
 
-@media screen and (max-width: 600px) {
-  body {
-    background: linear-gradient(to right, #2c2c2c -1%, #4c4c4c 0%, #2c2c2c 0%, #595959 26%, #666666 40%, #898989 64%, lightgray 100%); } }
-
+/*Colores*/
 header nav .navegador {
   background-image: url(../LogoEnviosService/banner-transporte-nacional.jpg); }
   header nav .navegador a .logo {
@@ -17,27 +16,49 @@ header nav .navegador {
     list-style: none;
     font-family: 'Dela Gothic One', cursive; }
     header nav .navegador div ul li .botonNav:hover {
-      color: #ff6200; }
+      color: #ff7700; }
 
 @media screen and (max-width: 768px) {
   header nav .navegador {
-    background: linear-gradient(to right, #2c2c2c -1%, #4c4c4c 0%, #2c2c2c 0%, #595959 26%, #666666 40%, #898989 64%, lightgray 100%);
-    text-align: center; } }
+    background: #fceabb;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f8b500, #fceabb);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f8b500, #fceabb);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ } }
 
-main div div h1 {
+/*Colores*/
+main .fondoInd {
+  background-color: orange; }
+  main .fondoInd div h1 {
+    text-align: center;
+    text-decoration: double;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: xxx-large;
+    margin: 25px; }
+  main .fondoInd h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; }
+
+@media screen and (max-width: 768px) {
+  main .fondoInd {
+    background: none; }
+    main .fondoInd div h1 {
+      color: black; }
+  main section {
+    width: 100%; } }
+
+/*Colores*/
+main h1 {
   text-align: center;
   text-decoration: double;
   font-family: 'Dela Gothic One', cursive;
   font-size: xxx-large;
   margin: 25px; }
 
-main div h3 {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif; }
-
 main h2 {
   text-align: center;
-  color: orangered;
+  color: #ff4500;
   font-family: 'Permanent Marker', cursive;
   font-size: xx-large; }
 
@@ -53,6 +74,7 @@ main div iframe {
   width: 80%;
   aspect-ratio: 16 / 9; }
 
+/*Colores*/
 main .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -107,10 +129,12 @@ main .container {
       font-size: 20px;
       cursor: pointer; }
       main .container .area2 div .btform:hover {
-        background-color: black;
-        color: orangered; }
+        background-color: #000000;
+        color: #ff4500; }
 
 @media screen and (max-width: 768px) {
+  main h1 {
+    color: whitesmoke; }
   main .container {
     display: grid;
     grid-template-columns: 1fr;
@@ -126,21 +150,24 @@ main .container {
       justify-content: space-between;
       align-items: center; }
       main .container .area1 div h3 {
-        color: whitesmoke;
+        color: black;
         text-align: center;
         font-family: 'Dela Gothic One', cursive; }
       main .container .area1 div p {
         text-align: center;
         text-decoration: none;
-        color: whitesmoke;
+        color: black;
         font-size: large;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
     main .container .area2 {
       grid-area: area2;
       display: block;
       justify-content: center;
-      align-items: center; } }
+      align-items: center; }
+      main .container .area2 div form label {
+        color: #000000; } }
 
+/*Colores*/
 main .sucursales {
   display: flex;
   flex-direction: row;
@@ -156,7 +183,20 @@ main .sucursales {
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
+main .contact-btn {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none; }
+
 @media screen and (max-width: 768px) {
+  main h1 {
+    color: black; }
   main .sucursales {
     display: flex;
     flex-direction: column;
@@ -170,8 +210,11 @@ main .sucursales {
       text-decoration: none;
       color: black;
       font-size: large;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; } }
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  main .contact-btn {
+    display: block; } }
 
+/*Colores*/
 footer {
   background: linear-gradient(to bottom, #040200 0%, #774100 36%, #ae5400 66%, #924600 100%);
   text-align: center;
@@ -202,6 +245,6 @@ footer {
     text-align: center; } }
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 2px;
+  padding: 2px;
   box-sizing: border-box; }

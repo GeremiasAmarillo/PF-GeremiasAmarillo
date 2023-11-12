@@ -5,12 +5,10 @@ body{
 
 @media screen and (max-width: 768px){
     body{
-        background: linear-gradient(to right, rgba(44,44,44,1) -1%,rgba(76,76,76,1) 0%,rgba(44,44,44,1) 0%,rgba(89,89,89,1) 26%,rgba(102,102,102,1) 40%,rgba(137,137,137,1) 64%,rgba(211,211,211,1) 100%);
+        background: #fceabb; 
+        background: -webkit-linear-gradient(to right, #f8b500, #fceabb);
+        background: linear-gradient(to right, #f8b500, #fceabb); 
+
     }
 }
 
-@media screen and (max-width: 600px){
-    body{
-        background: linear-gradient(to right, rgba(44,44,44,1) -1%,rgba(76,76,76,1) 0%,rgba(44,44,44,1) 0%,rgba(89,89,89,1) 26%,rgba(102,102,102,1) 40%,rgba(137,137,137,1) 64%,rgba(211,211,211,1) 100%);
-    }
-}

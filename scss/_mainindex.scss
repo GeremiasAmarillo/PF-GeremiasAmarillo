@@ -1,5 +1,11 @@
+/*Colores*/
+$colornegro:#0f0f0f;
+$colornaranja:#ff7700;
+$colortiza:#fff5f5;
+
 main{
-    div{
+    .fondoInd{
+        background-color: orange;
         div{
             h1{
                 text-align: center;
@@ -12,6 +18,23 @@ main{
         h3{
             text-align: center;
             font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    main{
+        .fondoInd{
+            background: none;
+            div{
+                h1{
+                    color: black;
+                }
+            }
+        }
+        section{
+            width: 100%;
         }
     }
 }
