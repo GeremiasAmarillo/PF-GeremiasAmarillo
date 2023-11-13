@@ -1,11 +1,12 @@
 /*Colores*/
 $colornegro:#0f0f0f;
 $colornaranja:#ff7700;
+$coloramaranjado:  #ff9100 ;
 $colortiza:#fff5f5;
 
 main{
     .fondoInd{
-        background-color: orange;
+        background-color: $coloramaranjado;
         div{
             h1{
                 text-align: center;
@@ -17,7 +18,8 @@ main{
         }
         h3{
             text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: 'Patrick Hand', cursive;
+            font-family: 'Patrick Hand SC', cursive;
         }
     }
 }
@@ -29,7 +31,7 @@ main{
             background: none;
             div{
                 h1{
-                    color: black;
+                    color: $colornegro;
                 }
             }
         }

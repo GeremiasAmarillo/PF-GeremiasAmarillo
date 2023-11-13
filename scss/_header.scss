@@ -1,7 +1,9 @@
 /*Colores*/
 $colornegro:#0f0f0f;
 $colornaranja:#ff7700;
+$coloramaranjado:  #ff9100 ;
 $colortiza:#fff5f5;
+$colorazul:#3a4dff ;
 
 header{
     nav{
@@ -20,6 +22,9 @@ header{
                         .botonNav{
                             &:hover{
                                 color: $colornaranja;
+                            }
+                            &:active{
+                                color: $colorazul;
                             }
                         }
                     }

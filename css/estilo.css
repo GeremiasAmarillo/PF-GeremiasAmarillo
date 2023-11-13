@@ -17,6 +17,8 @@ header nav .navegador {
     font-family: 'Dela Gothic One', cursive; }
     header nav .navegador div ul li .botonNav:hover {
       color: #ff7700; }
+    header nav .navegador div ul li .botonNav:active {
+      color: #3a4dff; }
 
 @media screen and (max-width: 768px) {
   header nav .navegador {
@@ -29,7 +31,7 @@ header nav .navegador {
 
 /*Colores*/
 main .fondoInd {
-  background-color: orange; }
+  background-color: #ff9100; }
   main .fondoInd div h1 {
     text-align: center;
     text-decoration: double;
@@ -38,13 +40,14 @@ main .fondoInd {
     margin: 25px; }
   main .fondoInd h3 {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif; }
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Patrick Hand SC', cursive; }
 
 @media screen and (max-width: 768px) {
   main .fondoInd {
     background: none; }
     main .fondoInd div h1 {
-      color: black; }
+      color: #0f0f0f; }
   main section {
     width: 100%; } }
 
@@ -58,16 +61,17 @@ main h1 {
 
 main h2 {
   text-align: center;
-  color: #ff4500;
+  color: #ff7700;
   font-family: 'Permanent Marker', cursive;
   font-size: xx-large; }
 
-main div div h2 div div p {
+main div div div p {
+  font-family: 'Patrick Hand', cursive;
+  font-family: 'Patrick Hand SC', cursive;
   text-align: center;
   text-decoration: none;
-  color: black;
-  font-size: large;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  color: #0f0f0f;
+  font-size: 1.5rem; }
 
 main div iframe {
   display: block;
@@ -90,13 +94,13 @@ main .container {
     justify-content: center;
     align-items: center; }
     main .container .area1 div h3 {
-      color: black;
+      color: #0f0f0f;
       text-align: center;
       font-family: 'Dela Gothic One', cursive; }
     main .container .area1 div p {
       text-align: center;
       text-decoration: none;
-      color: black;
+      color: #0f0f0f;
       font-size: large;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
   main .container .area2 {
@@ -112,29 +116,29 @@ main .container {
       display: block;
       font-weight: bold;
       margin-bottom: 3px;
-      color: orangered; }
+      color: #ff7700; }
     main .container .area2 div input,
     main .container .area2 div textarea {
       display: block;
       width: 100%;
       padding: 10px;
-      border: 2px solid black;
+      border: 2px solid #0f0f0f;
       border-radius: 5px;
       font-size: 16px;
       margin-bottom: 10px; }
     main .container .area2 div .btform {
-      background-color: orangered;
-      color: black;
+      background-color: #ff7700;
+      color: #0f0f0f;
       padding: 10px 20px;
       font-size: 20px;
       cursor: pointer; }
       main .container .area2 div .btform:hover {
-        background-color: #000000;
-        color: #ff4500; }
+        background-color: #0f0f0f;
+        color: #ff7700; }
 
 @media screen and (max-width: 768px) {
   main h1 {
-    color: whitesmoke; }
+    color: #fff5f5; }
   main .container {
     display: grid;
     grid-template-columns: 1fr;
@@ -150,13 +154,13 @@ main .container {
       justify-content: space-between;
       align-items: center; }
       main .container .area1 div h3 {
-        color: black;
+        color: #0f0f0f;
         text-align: center;
         font-family: 'Dela Gothic One', cursive; }
       main .container .area1 div p {
         text-align: center;
         text-decoration: none;
-        color: black;
+        color: #0f0f0f;
         font-size: large;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
     main .container .area2 {
@@ -165,7 +169,7 @@ main .container {
       justify-content: center;
       align-items: center; }
       main .container .area2 div form label {
-        color: #000000; } }
+        color: #0f0f0f; } }
 
 /*Colores*/
 main .sucursales {
@@ -179,7 +183,7 @@ main .sucursales {
   main .sucursales div p {
     text-align: center;
     text-decoration: none;
-    color: black;
+    color: #0f0f0f;
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
@@ -187,7 +191,7 @@ main .contact-btn {
   position: fixed;
   bottom: 10px;
   right: 10px;
-  color: #fff;
+  color: #fff5f5;
   padding: 10px 20px;
   border-radius: 5px;
   text-align: center;
@@ -196,7 +200,9 @@ main .contact-btn {
 
 @media screen and (max-width: 768px) {
   main h1 {
-    color: black; }
+    color: #0f0f0f; }
+  main h2 {
+    color: #0f0f0f; }
   main .sucursales {
     display: flex;
     flex-direction: column;
@@ -208,7 +214,7 @@ main .contact-btn {
     main .sucursales div p {
       text-align: center;
       text-decoration: none;
-      color: black;
+      color: #0f0f0f;
       font-size: large;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
   main .contact-btn {
@@ -223,7 +229,7 @@ footer {
   footer h4 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: white; }
+    color: #fff5f5; }
   footer ul li {
     list-style: none; }
     footer ul li .foter {

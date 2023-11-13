@@ -17,7 +17,7 @@ main{
             p{
                 text-align: center;
                 text-decoration: none;
-                color: black;
+                color: $colornegro;
                 font-size: large;
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
@@ -28,7 +28,7 @@ main{
         position: fixed;
         bottom: 10px;
         right: 10px;
-        color: #fff;
+        color: $colortiza;
         padding: 10px 20px;
         border-radius: 5px;
         text-align: center;
@@ -40,7 +40,10 @@ main{
 @media screen and (max-width: 768px){
     main{
         h1{
-            color: black;
+            color: $colornegro;
+        }
+        h2{
+            color: $colornegro;
         }
         .sucursales{
             display: flex;
@@ -55,7 +58,7 @@ main{
                 p{
                     text-align: center;
                     text-decoration: none;
-                    color: black;
+                    color: $colornegro;
                     font-size: large;
                     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     

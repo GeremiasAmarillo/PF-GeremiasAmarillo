@@ -25,7 +25,7 @@ main {
 
             div {
                 h3 {
-                    color: black;
+                    color: $colornegro;
                     text-align: center;
                     font-family: 'Dela Gothic One', cursive;
                 }
@@ -33,7 +33,7 @@ main {
                 p {
                     text-align: center;
                     text-decoration: none;
-                    color: black;
+                    color: $colornegro;
                     font-size: large;
                     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                 }
@@ -59,7 +59,7 @@ main {
                     display: block;
                     font-weight: bold;
                     margin-bottom: 3px;
-                    color: orangered;
+                    color: $colornaranja;
                 }
 
                 input,
@@ -67,22 +67,22 @@ main {
                     display: block;
                     width: 100%;
                     padding: 10px;
-                    border: 2px solid black;
+                    border: 2px solid $colornegro;
                     border-radius: 5px;
                     font-size: 16px;
                     margin-bottom: 10px;
                 }
 
                 .btform {
-                    background-color: orangered;
-                    color: black;
+                    background-color: $colornaranja;
+                    color: $colornegro;
                     padding: 10px 20px;
                     font-size: 20px;
                     cursor: pointer;
 
                     &:hover {
-                        background-color: #000000;
-                        color: #ff4500;
+                        background-color: $colornegro;
+                        color: $colornaranja;
                     }
                 }
             }
@@ -94,7 +94,7 @@ main {
     
     main {
         h1{
-            color: whitesmoke
+            color: $colortiza
         }
         .container {
             display: grid;
@@ -116,7 +116,7 @@ main {
                 align-items: center;
                 div {
                     h3 {
-                        color: black;
+                        color: $colornegro;
                         text-align: center;
                         font-family: 'Dela Gothic One', cursive;
                     }
@@ -124,7 +124,7 @@ main {
                     p {
                         text-align: center;
                         text-decoration: none;
-                        color: black;
+                        color: $colornegro;
                         font-size: large;
                         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                     }
@@ -138,7 +138,7 @@ main {
                 div{
                     form{
                         label{
-                            color: #000000;
+                            color: $colornegro;
                         }
                     }
                 }
