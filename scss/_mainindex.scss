@@ -26,6 +26,16 @@ main{
 
 
 @media screen and (max-width: 768px){
+    header{
+        nav{
+            div{
+                button{
+                    color: $coloramaranjado;
+                }
+            }
+        }
+    }
+
     main{
         .fondoInd{
             background: none;
