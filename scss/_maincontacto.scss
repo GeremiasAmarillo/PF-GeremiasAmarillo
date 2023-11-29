@@ -4,7 +4,10 @@ $colornaranja:#ff7700;
 $colortiza:#fff5f5;
 
 main {
-    .container {
+    h2{
+        font-size: 3rem;
+    }
+    .container2 {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
@@ -16,7 +19,7 @@ main {
             "area1 area2"
             "area1 area2";
 
-        .area1 {
+        .area3 {
 
             grid-area: area1;
             display: flex;
@@ -34,13 +37,13 @@ main {
                     text-align: center;
                     text-decoration: none;
                     color: $colornegro;
-                    font-size: large;
+                    font-size: 1.5rem;
                     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                 }
             }
         }
 
-        .area2 {
+        .area4 {
             grid-area: area2;
             display: flex;
             justify-content: center;
@@ -58,6 +61,7 @@ main {
                 label {
                     display: block;
                     font-weight: bold;
+                    font-size: 1rem;
                     margin-bottom: 3px;
                     color: $colornaranja;
                 }
@@ -96,7 +100,7 @@ main {
         h1{
             color: $colortiza
         }
-        .container {
+        .container2 {
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: 1fr 2fr;
@@ -108,7 +112,7 @@ main {
                 "area1"
                 "area2";
 
-            .area1 {
+            .area3 {
                 
                 grid-area: area1;
                 display: block;
@@ -130,7 +134,7 @@ main {
                     }
                 }
             }
-            .area2 {
+            .area4 {
                 grid-area: area2;
                 display: block;
                 justify-content: center;
